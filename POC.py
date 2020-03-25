@@ -44,6 +44,7 @@ def setupplot():
             ax.scatter(position[i][0], position[i][1], c='r')
             
 setupplot()
+plt.plot()
 plt.show()
 
 # rapidly looks up distances between every coordinate pair
@@ -59,4 +60,4 @@ def changestatus():
 
 changestatus()
 setupplot()
-ax.figure().show()
+plt.show()
